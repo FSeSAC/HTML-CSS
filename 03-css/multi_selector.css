@@ -1,0 +1,57 @@
+/* 하위(후손) 선택자: 공백 */
+
+body section {
+    /* 테두리/경계선 : 두께 /  / 색상 */
+    border: 1px solid blue;
+}
+
+body section h2 {
+    border: 1px solid green;
+}
+
+/* 자식 선택자: `<` x  /  `>` o */
+.first > h2 {
+    color: white;
+    background-color: navy;
+}
+
+.second > h2 {
+    color: white;
+    background-color: red;
+}
+
+/* 인접 형제 선택자: `+`
+    - spicy 라는 아이디를 갖는 요소 바로 뒤에 인접해야함
+    - 바로뒤에 다른 코드가 존재시 적용 불가
+*/
+#spicy {
+    color: lightgreen;
+    background-color:  skyblue;
+}
+
+#spicy + li {
+    color: red;
+    background-color:  blue;
+}
+
+/* 일반 형제 선택자: `~` 
+    - 지정된 아이디 이후 부터 적용
+*/
+#spicy ~ li {
+    color: pink;
+}
+
+/* CSS 색상 */
+
+/* 
+    1. 색상 키워드 : red, blue, aqua, white ...
+
+    2. 16진수 코드(#xxxxxx)
+    0 ~ 9, a, b, c, d, e, f : 16개의 기호로 표현
+    - #fffffff: Red(ff), Green(ff), Blue(ff) => white
+    - #000000: Red(00), Green(00), Blue(00) => black
+
+    3. rgb(0~255, 0~255, 0~255)
+        - rgb(255, 255, 255): white
+        - rgb(0, 0, 0): black
+*/
