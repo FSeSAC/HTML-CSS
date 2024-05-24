@@ -1,0 +1,59 @@
+div {
+ border: 1px solid black;   
+ border-radius: 50%;
+ width: 50px;
+ height: 50px;
+}
+
+.C1 {
+    background-color: navy;
+    position: relative;
+    left: 50px;
+    top: 50px;
+}
+
+.D1 {
+    background-color: white;
+    position: relative;
+    width: 30px;
+    height: 30px;
+    left: 5px;
+    top: 5px;
+}
+
+.E1 {
+    background-color: black;
+    position: relative;
+    width: 10px;
+    height: 10px;
+    left: 5px;
+    top: 5px;
+}
+
+.C2{
+    background-color: blue;
+    position: relative;
+    left: 80px;
+    top: 30px;
+}
+
+.C3{
+    background-color: cornflowerblue;
+    position: relative;
+    left: 100px;
+    top: 5px;
+}
+
+.C4{
+    background-color: lightblue;
+    position: relative;
+    left: 110px;
+    top: -20px;
+}
+
+.C5{
+    background-color: lightcyan;
+    position: relative;
+    left: 130px;
+    top: -50px;
+}

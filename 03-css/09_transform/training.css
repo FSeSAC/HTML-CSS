@@ -1,0 +1,17 @@
+.box {
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    color: white;
+    overflow: scroll;
+}
+
+.box:hover {
+    width: 300px;
+    height: 300px;
+    transition: 1s 0.5s
+    
+}
+
+

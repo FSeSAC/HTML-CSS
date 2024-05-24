@@ -1,0 +1,34 @@
+img {
+    width: 400px;
+    height: 200px;
+    transform: rotate(30deg);
+}
+
+img:hover{
+    position: absolute;
+    transition: 1s;
+    z-index: 100;
+    transform: rotate(0deg) scale(1.1);
+}
+
+.morning {
+    position: absolute;
+    left: 100px;
+    top: 200px;
+    z-index: 3;
+}
+
+.afternoon {
+    position: absolute;
+    left: 200px;
+    top: 200px;
+    z-index: 2;
+}
+
+
+.night {
+    position: absolute;
+    left: 300px;
+    top: 200px;
+    z-index: 1;
+}

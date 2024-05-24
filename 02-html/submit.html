@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>실습2 사진과 똑같이 만들기</title>
+</head>
+<body>
+    <h3>설문조사</h3>
+    
+    이름 <input type="text"> <br>
+    이메일 <input type="email" placeholder="love@example.com"> <br>
+
+    <h4>나이</h4>
+    <input type="radio" name="age" value="10대" id="10대" checked><label for="10대">10대</label>
+    <input type="radio" name="age" value="20대" id="20대"><label for="20대">20대</label>
+    <input type="radio" name="age" value="30대" id="30대"><label for="30대">30대</label>
+    <input type="radio" name="age" value="40대" id="40대"><label for="40대">40대</label>
+    <input type="radio" name="age" value="50대" id="50대"><label for="50대">50대</label>
+    <input type="radio" name="age" value="60대 이상" id="60대 이상"><label for="60대 이상">60대 이상</label>
+    <br>
+
+    <h4>원하는 강의(복수응답가능합니다.)</h4>
+    <input type="checkbox" name="interest" value="html" checked>html
+    <input type="checkbox" name="interest" value="javascript">javascript
+    <input type="checkbox" name="interest" value="css">css
+    <br>
+
+    <textarea placeholder="하고 싶은 말을 써주세요:)"
+    cols="50" rows="10"></textarea>
+    <button type="submit">제출</button>
+</body>
+</html>
