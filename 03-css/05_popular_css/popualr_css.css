@@ -55,6 +55,13 @@ div{
     */
 
 
+     /* 
+        폰트 모양
+        - normal, italic, oblique
+    */
+    /* font-style: oblique 70deg; */
+
+
     /* 
         정렬
         - center, left, right, jutify(양쪽 정렬)
@@ -64,6 +71,14 @@ div{
     /* text-decoration: underline; */
     text-decoration: line-through;
 
+     /* 
+        글자선
+        - underline, line-through, overline, none
+    */
+    /* text-decoration: underline; */
+    /* text-decoration: line-through; */
+
+    
     /* 
         줄 높이
         - px, 1.2(default)
