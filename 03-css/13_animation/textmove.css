@@ -1,0 +1,11 @@
+.textmove {
+    position: relative;
+    right: -110%;
+    animation: text 4s 1 forwards;
+}
+
+@keyframes text {
+    100% {
+        right: 0;
+    }
+}
