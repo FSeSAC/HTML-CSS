@@ -1,0 +1,37 @@
+.bounceball{
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    border-radius: 50%;
+    position: relative;
+    background: linear-gradient(45deg, yellow, brown);
+
+    animation: bounce 4s ease-in infinite normal;
+}
+
+@keyframes bounce {
+    0% {
+        left: 0px;
+        top: 0px;
+    }
+
+    25% {
+        left: 80%;
+        top: 0px;
+    }
+
+    50% {
+        left: 80%;
+        top: 500px;
+    }
+
+    75% {
+        left: 0px;
+        top: 500px;
+    }
+
+    100% {
+        left: 0px;
+        top: 0px;
+    }
+}
